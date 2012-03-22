@@ -47,5 +47,6 @@ EOF
   s.add_development_dependency('test-unit', '1.2.3')
   s.add_development_dependency('webrat', '~> 0.7.3')
   s.add_development_dependency('minitest')
+  s.add_development_dependency('mocha')
   s.add_development_dependency('nutrasuite')
 end

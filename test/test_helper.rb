@@ -1,5 +1,8 @@
 require 'minitest/unit'
+require 'mocha'
 require 'nutrasuite'
+
+MiniTest::Unit.autorun
 
 module ConfigStubs
   def stub_yaml_config

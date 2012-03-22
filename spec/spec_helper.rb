@@ -48,6 +48,7 @@ module TempFileHelper
   end
 
   def remove_temp_directory
+    puts "## removing #{TempFileHelper::TEMP_DIR}"
     FileUtils.rm_r(TempFileHelper::TEMP_DIR, :force => true)
   end
 
